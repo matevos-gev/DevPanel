@@ -1,0 +1,67 @@
+::-moz-selection {
+   color: rgb(255, 255, 255);
+   background: rgb(0, 0, 0);
+ }
+ 
+ ::selection {
+   color: rgb(255, 255, 255);
+   background: rgb(0, 0, 0);
+ }
+ 
+ body{
+    font-family: sans-serif;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    color: rgb(65, 65, 65);
+    font-size: 0.9rem;
+    background-color: white;
+ }
+
+ table{
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px  rgb(137, 137, 137);
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+ }
+
+ tbody tr:nth-child(odd) {
+    background-color: #e8e8e8;
+    color: #000000;
+  }
+
+ thead{
+    box-shadow: 0 5px 10px gray;
+    background-color: black;  
+ }
+
+ th{
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: white;
+    top:0;
+
+    
+ }
+
+ td{
+    padding: 1rem 2rem;
+    position:static
+ }
+
+ .databtn {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 0.2rem 1rem;
+    text-align: center;
+ }
+
+
+
+ 
